@@ -23,7 +23,7 @@ function Text(){
 
 function SplashPhoto(){
     return (
-        <img  className="absolute w-60 z-106" src="src/assets/pp.png" alt="ephra img " />   
+        <img  className="absolute w-60 z-106" src="/pp.png" alt="ephra img " />   
            )
 }
 
