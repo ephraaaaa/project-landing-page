@@ -23,8 +23,10 @@ function Text(){
 
 function SplashPhoto(){
     return (
-        <img  className="absolute w-60 z-106 xxs:left-12 xs:left-24" src="/pp.png" alt="ephra img " />   
-           )
+        <div className="flex justify-end">
+                <img  className="absolute w-60 z-106" src="/pp.png" alt="ephra img " />   
+        </div>
+    )
 }
 
 function HelloWorld(){
