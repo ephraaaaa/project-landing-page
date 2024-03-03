@@ -77,7 +77,7 @@ function SkillPlatform(props){
     return (
         <div className="flex justify-center">
             <div className={`border border-primary rounded-full h-7 ${width} mb-2 md:w-80 md:h-10 md:p-2`}>
-                <div className={`text-primary text-center text-sm p-1 font-semibold`} >
+                <div className={`text-primary text-center text-sm p-1 font-semibold  md:text-xl md:p-0`} >
                 {props.text}
                 </div>
             </div>
