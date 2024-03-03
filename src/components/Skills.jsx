@@ -46,7 +46,7 @@ function MachineLearningCategory(){
     return (
         <div className="mb-3">
             <SkillPlatform width="w-40" text="Machine Learning" ></SkillPlatform>
-            <div className="flex justify-center md:mr-12">
+            <div className="flex justify-center md:mr-12    ">
                     <SkillItems width="w-28" text="TensorFlow" ></SkillItems>
                     <SkillItems width="w-20" text="Python" ></SkillItems>     
             </div>

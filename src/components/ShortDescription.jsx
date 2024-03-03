@@ -31,7 +31,7 @@ function SplashPhoto(){
 
 function HelloWorld(){
     return (
-        <h1 className="text-4xl pr-10 left-1 pt-44 md:pt-80 text-primary font-bold md:text-6xl">
+        <h1 className="text-4xl pr-10 left-1 pt-48 md:pt-80 text-primary font-bold md:text-6xl">
                Hello, World! 
            </h1>
            )
