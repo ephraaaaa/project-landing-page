@@ -39,8 +39,8 @@ function HelloWorld(){
 
 function ShortDescription(){
     return (
-        <div className="relative z-0">
-            <SplashPhoto className="ml-2"></SplashPhoto>
+        <div className="relative z-0 p-3">
+            <SplashPhoto></SplashPhoto>
             <HelloWorld></HelloWorld>
             <Text></Text>
         </div>
