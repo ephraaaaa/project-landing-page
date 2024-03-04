@@ -14,7 +14,7 @@ function Text(){
             Eager to learn and determined to leverage these skills
             to drive success for the team.
             </p>
-            <h5 className="mt-6 lg:mt-10 font-bold lg:text-4xl">
+            <h5 className="mt-6 lg:mt-16 font-bold lg:text-4xl">
                 SKILLS:
             </h5>
         </div>
@@ -24,7 +24,7 @@ function Text(){
 function SplashPhoto(){
     return (
         <div className="flex justify-end">
-                <img  className="absolute w-60  md:w-2/3 lg:w-2/6  z-106" src="/pp.png" alt="ephra img " />   
+                <img  className="absolute w-60  md:w-2/3 lg:w-2/6  z-106 drop-shadow-2xl" src="/pp.png" alt="ephra img " />   
         </div>
     )
 }
