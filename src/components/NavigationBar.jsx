@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 function NavItems(props){
-    return <li className="text-secondary text-xs mr-2"><Link to={props.linkTo}>{props.navItemsName}</Link></li>
+    return <li className="text-secondary text-xs mr-2 hover:cursor-pointer"><Link to={props.linkTo}>{props.navItemsName}</Link></li>
 }
 function Navigation(){
     return (
